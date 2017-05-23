@@ -1,0 +1,39 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.actionbar.MainActivity" >
+    
+    
+    <item
+        android:title="医疗服务"
+        android:icon="@drawable/test"
+        android:showAsAction="always|withText"        
+        >
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/menu_item1"
+                    android:icon="@drawable/test"
+                    android:title="病例记录"
+                    />
+                <item
+                    android:id="@+id/menu_item2"
+                    android:icon="@drawable/test"
+                    android:title="查询药物"
+                    />
+                <item
+                    android:id="@+id/menu_item3"
+                    android:icon="@drawable/test"
+                    android:title="预约检查"
+                    />
+                </group>
+              </menu>
+             </item>
+             <item
+                 android:id="@+id/menu_item4"
+                 android:icon="@drawable/test"
+                 android:title="紧急呼救 "
+                 android:showAsAction="ifRoom|withText"
+                 />
+
+</menu>
